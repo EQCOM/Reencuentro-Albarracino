@@ -1,0 +1,72 @@
+{
+  "kind": "collectionType",
+  "collectionName": "registrar_entradas",
+  "info": {
+    "singularName": "registrar-entrada",
+    "pluralName": "registrar-entradas",
+    "displayName": "Registrar-Entradas",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "userSchool": {
+      "type": "string"
+    },
+    "userGraduationYear": {
+      "type": "biginteger"
+    },
+    "userEmail": {
+      "type": "string"
+    },
+    "userCellphone": {
+      "type": "biginteger"
+    },
+    "userCountry": {
+      "type": "string"
+    },
+    "userState": {
+      "type": "string"
+    },
+    "userName": {
+      "type": "string"
+    },
+    "userLastname": {
+      "type": "string"
+    },
+    "userDocument": {
+      "type": "string"
+    },
+    "userDocumentNumber": {
+      "type": "string"
+    },
+    "userPaymentMethod": {
+      "type": "string"
+    },
+    "userPayment": {
+      "type": "biginteger"
+    },
+    "userPaymentNumber": {
+      "type": "string"
+    },
+    "userToken": {
+      "type": "biginteger"
+    },
+    "userTicket": {
+      "type": "biginteger"
+    },
+    "userTimestamp": {
+      "type": "string"
+    },
+    "userVoucher": {
+      "type": "string"
+    },
+    "userQr": {
+      "type": "string"
+    },
+    "userStatus": {
+      "type": "string"
+    }
+  }
+}

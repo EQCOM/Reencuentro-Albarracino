@@ -1,0 +1,24 @@
+{
+  "kind": "collectionType",
+  "collectionName": "registrar_pagos_albarranicos",
+  "info": {
+    "singularName": "registrar-pagos-albarranico",
+    "pluralName": "registrar-pagos-albarranicos",
+    "displayName": "Registrar-pagos-albarranico",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "payName": {
+      "type": "string"
+    },
+    "payAmount": {
+      "type": "string"
+    },
+    "payCode": {
+      "type": "string"
+    }
+  }
+}
